@@ -26,4 +26,4 @@ const myAtoi = (s) => {
   return num;
 };
 
-console.log(myAtoi(21474836479));
+// console.log(myAtoi(21474836479));
