@@ -18,3 +18,7 @@ console.log(reverseKardo(1234));
 // rem =
 // reverse = 4321
 // num = 123
+
+let str = "abcd";
+let re = str.reverse();
+console.log(re);
