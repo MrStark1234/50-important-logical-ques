@@ -1,2 +1,6 @@
 Fetch this API and take it's response https://reqres.in/api/users?page=2,
 and show it's response in a Table format with some decent styling.
+
+
+
+
