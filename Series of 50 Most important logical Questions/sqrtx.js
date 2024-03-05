@@ -1,3 +1,5 @@
+//Question Link => https://leetcode.com/problems/sqrtx/
+
 //Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
 //You must not use any built-in exponent function or operator.
 //For example, do not use Math.pow(x, 0.5) in javascript or x ** 0.5 in python.
@@ -15,7 +17,7 @@ function sqrtx(x) {
   let ans = -1;
   for (let i = 0; i <= x; i++) {
     if (i * i <= x) {
-      ans = i;
+      ans = i; // 0 , 1 , 2
     } else {
       return ans;
     }
